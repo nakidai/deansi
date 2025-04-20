@@ -1,0 +1,20 @@
+.Dd April 20, 2025
+.Dt DEANSI 1
+.Os
+.
+.Sh NAME
+.Nm deansi
+.Nd remove ansi escape sequences
+.
+.Sh SYNOPSIS
+.Nm
+.
+.Sh DESCRIPTION
+.Nm
+prints input
+excluding every control sequence introducer commands
+from the input,
+allowing to read output in tools like
+.Xr less 1
+without
+.Fl R .

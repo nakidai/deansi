@@ -1,0 +1,13 @@
+DEANSI(1)		    General Commands Manual		     DEANSI(1)
+
+NAME
+     deansi - remove ansi escape sequences
+
+SYNOPSIS
+     deansi
+
+DESCRIPTION
+     deansi prints input excluding every control sequence introducer commands
+     from the input, allowing to read output in tools like less(1) without -R.
+
+deansi				April 20, 2025				deansi
